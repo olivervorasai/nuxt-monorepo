@@ -1,8 +1,15 @@
 {
-  "name": "my-library",
-  "version": "0.0.0",
-  "author": "Oliver Vorasai <olivervorasai@gmail.com>",
-  "dependencies": {
-    "nuxt": "^2.15.8"
-  }
+    "name": "my-library",
+    "version": "0.0.0",
+    "author": "Oliver Vorasai <olivervorasai@gmail.com>",
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "heroku-postbuild": "npm run build"
+    },
+    "dependencies": {
+        "nuxt": "^2.15.8"
+    }
 }
+
